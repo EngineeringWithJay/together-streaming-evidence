@@ -1,0 +1,27 @@
+# Tested on CPython 3.12.13. Provision separately; reproduction never installs.
+# SDK VCS pin is portable; no editable/local checkout dependency.
+together @ git+https://github.com/togethercomputer/together-py.git@5f22a566d22d135dccfcbb76901bca69bfdf0222
+annotated-types==0.8.0
+anyio==4.15.1
+attrs==26.1.0
+certifi==2026.7.22
+cyclopts==4.25.3
+detect-agent==0.6.0
+distro==1.9.0
+docstring-parser==0.18.0
+filelock==3.32.7
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.20
+markdown-it-py==4.2.0
+mdurl==0.1.2
+pydantic==2.14.1
+pydantic-core==2.50.1
+Pygments==2.21.0
+rich==14.3.4
+rich-rst==2.2.0
+sniffio==1.3.1
+types-PyYAML==6.0.12.20260906
+typing-inspection==0.4.4
+typing-extensions==4.16.0

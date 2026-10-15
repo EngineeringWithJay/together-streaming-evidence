@@ -1,0 +1,16 @@
+{
+  "reference_commit": "5f22a566d22d135dccfcbb76901bca69bfdf0222",
+  "sdk_version": "2.41.0",
+  "sha256_relative_to_together": {
+    "_base_client.py": "e13b2f7481e5db2f238993b0d3999506fabdd67501a1d4ac598a43b37996a3dc",
+    "_client.py": "dca61d6244c34c87cb49ca68ac5fb56624b749df3ca6f9066480006639e063d2",
+    "_models.py": "25069c6a3ba112b956602a620daeecfe22b8ac756e6b7e8cf8491a189fcf9ab5",
+    "_response.py": "d04feb7ca9bda16ecf1eeb8e30d4599da63a4ca0d5e57ed244201619981f26b0",
+    "_streaming.py": "83bb15df8072fe40c334f2f0ecb1369a6c6bc2e486b9c3088553d103a56ca7b8",
+    "_utils/_transform.py": "3630b39a77ea62bb008a450742283a37d41fb9355b2a2a6e3f7babf6670d17e1",
+    "resources/chat/completions.py": "6ce8e39531f4aeb56ebf54c3b1cb05f9f671a1a550879ab2e1f028c37aa664a3",
+    "types/chat/chat_completion_chunk.py": "4043c17fa5f65baac63a6f09839761fc1dcabbd0de3a1ce0654e3bbfd88c85a7",
+    "types/chat/chat_completion_usage.py": "b640e9e32ee3cf114ab4aded5defdb25bec2a1ec3e9edf2edd2edb642bdc557a",
+    "types/tool_choice.py": "a0efac0d4a3339cac55d9ec8f0e0145c8a132836a0bf6ad5f63535a760f31f38"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "cases": [
+    {
+      "all_responses_closed": true,
+      "case": "control",
+      "chunks": [
+        {
+          "choices": [
+            {
+              "delta": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"value\":",
+                      "name": "record_value"
+                    },
+                    "id": "synthetic-call",
+                    "index": 0.0,
+                    "type": "function"
+                  }
+                ]
+              },
+              "delta_fields_set": [
+                "content",
+                "role",
+                "tool_calls"
+              ],
+              "finish_reason": null
+            }
+          ],
+          "fields_set": [
+            "choices",
+            "created",
+            "id",
+            "model",
+            "object"
+          ],
+          "usage": null,
+          "usage_state": "absent"
+        },
+        {
+          "choices": [
+            {
+              "delta": {
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "1}"
+                    },
+                    "index": 0.0
+                  }
+                ]
+              },
+              "delta_fields_set": [
+                "tool_calls"
+              ],
+              "finish_reason": null
+            }
+          ],
+          "fields_set": [
+            "choices",
+            "created",
+            "id",
+            "model",
+            "object"
+          ],
+          "usage": null,
+          "usage_state": "absent"
+        },
+        {
+          "choices": [
+            {
+              "delta": {},
+              "delta_fields_set": [],
+              "finish_reason": "tool_calls"
+            }
+          ],
+          "fields_set": [
+            "choices",
+            "created",
+            "id",
+            "model",
+            "object",
+            "usage"
+          ],
+          "usage": {
+            "completion_tokens": 3,
+            "prompt_tokens": 7,
+            "total_tokens": 10
+          },
+          "usage_state": "value"
+        }
+      ],
+      "fixture_bytes": 793,
+      "fixture_done_present": true,
+      "fixture_ends_at_event_boundary": true,
+      "fixture_sha256": "1b2abe49d5f10a433fc73fbf39b763c6231fa877239c2327c54347dc3d18ac64",
+      "http_client_closed": true,
+      "iteration_exception": null,
+      "iteration_outcome": "iteration exhausted without exception",
+      "mock_requests": 1,
+      "request_body_sha256": [
+        "47f31edcefdae455c57bd64417198e1a85b5d2bdda270af51b0d64f45d75e7e1"
+      ],
+      "response_closed_on_iteration_exit": true,
+      "sdk_yielded_chunks": 3
+    },
+    {
+      "all_responses_closed": true,
+      "case": "clean-eof",
+      "chunks": [
+        {
+          "choices": [
+            {
+              "delta": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"value\":",
+                      "name": "record_value"
+                    },
+                    "id": "synthetic-call",
+                    "index": 0.0,
+                    "type": "function"
+                  }
+                ]
+              },
+              "delta_fields_set": [
+                "content",
+                "role",
+                "tool_calls"
+              ],
+              "finish_reason": null
+            }
+          ],
+          "fields_set": [
+            "choices",
+            "created",
+            "id",
+            "model",
+            "object"
+          ],
+          "usage": null,
+          "usage_state": "absent"
+        }
+      ],
+      "fixture_bytes": 323,
+      "fixture_done_present": false,
+      "fixture_ends_at_event_boundary": true,
+      "fixture_sha256": "cfb6aac45e1bf5d766f0db05b2e19a9e60ebefcdc3d62fc475f90a73bb1a3ed5",
+      "http_client_closed": true,
+      "iteration_exception": null,
+      "iteration_outcome": "iteration exhausted without exception",
+      "mock_requests": 1,
+      "request_body_sha256": [
+        "47f31edcefdae455c57bd64417198e1a85b5d2bdda270af51b0d64f45d75e7e1"
+      ],
+      "response_closed_on_iteration_exit": true,
+      "sdk_yielded_chunks": 1
+    },
+    {
+      "all_responses_closed": true,
+      "case": "null-usage",
+      "chunks": [
+        {
+          "choices": [
+            {
+              "delta": {
+                "content": null,
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "{\"value\":",
+                      "name": "record_value"
+                    },
+                    "id": "synthetic-call",
+                    "index": 0.0,
+                    "type": "function"
+                  }
+                ]
+              },
+              "delta_fields_set": [
+                "content",
+                "role",
+                "tool_calls"
+              ],
+              "finish_reason": null
+            }
+          ],
+          "fields_set": [
+            "choices",
+            "created",
+            "id",
+            "model",
+            "object"
+          ],
+          "usage": null,
+          "usage_state": "absent"
+        },
+        {
+          "choices": [
+            {
+              "delta": {
+                "tool_calls": [
+                  {
+                    "function": {
+                      "arguments": "1}"
+                    },
+                    "index": 0.0
+                  }
+                ]
+              },
+              "delta_fields_set": [
+                "tool_calls"
+              ],
+              "finish_reason": null
+            }
+          ],
+          "fields_set": [
+            "choices",
+            "created",
+            "id",
+            "model",
+            "object"
+          ],
+          "usage": null,
+          "usage_state": "absent"
+        },
+        {
+          "choices": [
+            {
+              "delta": {},
+              "delta_fields_set": [],
+              "finish_reason": "tool_calls"
+            }
+          ],
+          "fields_set": [
+            "choices",
+            "created",
+            "id",
+            "model",
+            "object",
+            "usage"
+          ],
+          "usage": null,
+          "usage_state": "null"
+        }
+      ],
+      "fixture_bytes": 738,
+      "fixture_done_present": true,
+      "fixture_ends_at_event_boundary": true,
+      "fixture_sha256": "5be42cb181d95575e536314bc99ccab018c3caf45455689b8a69a9ddff348e71",
+      "http_client_closed": true,
+      "iteration_exception": null,
+      "iteration_outcome": "iteration exhausted without exception",
+      "mock_requests": 1,
+      "request_body_sha256": [
+        "47f31edcefdae455c57bd64417198e1a85b5d2bdda270af51b0d64f45d75e7e1"
+      ],
+      "response_closed_on_iteration_exit": true,
+      "sdk_yielded_chunks": 3
+    }
+  ],
+  "eof_is_control_prefix_at_event_boundary": true,
+  "network_attempts": 0,
+  "provenance": {
+    "import_origin": "installed distribution; selected module origins verified",
+    "packages": {
+      "httpx": "0.28.1",
+      "pydantic": "2.14.1",
+      "together": "2.41.0"
+    },
+    "python": "3.12.13",
+    "reference_commit": "5f22a566d22d135dccfcbb76901bca69bfdf0222",
+    "source_sha256": {
+      "_base_client.py": "e13b2f7481e5db2f238993b0d3999506fabdd67501a1d4ac598a43b37996a3dc",
+      "_client.py": "dca61d6244c34c87cb49ca68ac5fb56624b749df3ca6f9066480006639e063d2",
+      "_models.py": "25069c6a3ba112b956602a620daeecfe22b8ac756e6b7e8cf8491a189fcf9ab5",
+      "_response.py": "d04feb7ca9bda16ecf1eeb8e30d4599da63a4ca0d5e57ed244201619981f26b0",
+      "_streaming.py": "83bb15df8072fe40c334f2f0ecb1369a6c6bc2e486b9c3088553d103a56ca7b8",
+      "_utils/_transform.py": "3630b39a77ea62bb008a450742283a37d41fb9355b2a2a6e3f7babf6670d17e1",
+      "resources/chat/completions.py": "6ce8e39531f4aeb56ebf54c3b1cb05f9f671a1a550879ab2e1f028c37aa664a3",
+      "types/chat/chat_completion_chunk.py": "4043c17fa5f65baac63a6f09839761fc1dcabbd0de3a1ce0654e3bbfd88c85a7",
+      "types/chat/chat_completion_usage.py": "b640e9e32ee3cf114ab4aded5defdb25bec2a1ec3e9edf2edd2edb642bdc557a",
+      "types/tool_choice.py": "a0efac0d4a3339cac55d9ec8f0e0145c8a132836a0bf6ad5f63535a760f31f38"
+    }
+  },
+  "schema": 1,
+  "synthetic_model": "synthetic-tool-model",
+  "usage_numbers_are_fixture_data": true
+}
